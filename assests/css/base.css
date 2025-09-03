@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  font-family: var(--mainFont);
+}
+:root{
+  --primary:#FB2E86;
+  --mainFont:"Lato", sans-serif;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.container{
+  width: calc(100% - 320px);
+  margin:0 auto;
+}
+.btn{
+  padding: 16px 40px 17px;
+  color: #fff;
+}
+.btn-primary{
+  background-color: #FB2E86;
+}
