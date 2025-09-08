@@ -44,7 +44,84 @@
 /* .navbar .colored{
   color: var(--primary);
 } */
+.burgerbar{
+  color:#0D0E43
+}
+.footer{
+  background-color: #EEEFFB;
+  padding: 95px 0px;
+}
+.footer .row{
+  align-items:normal;
+}
+.leftside{
+  align-items: flex-start;
+}
 
+
+.mailbox{
+  justify-content: center;
+  align-items: center;
+
+}
+.mailbox input{
+  width: 350px;
+  border:none;
+  padding:14px 20px 11px;
+  border-radius: 3px;
+}
+.mailbox button{
+  margin-left: -130px;
+  border-radius: 3px;
+  padding: 12px 41px 10px 40px;
+}
+.contact{
+  color: #8A8FB9;
+  font-family: var(--mainFont);
+}
+address{
+  font-style: normal;
+}
+.rightside{
+  font-family: var(--mainFont);
+}
+.rightside{
+  gap: 114px;
+}
+.footer-item{
+  gap: 41px;
+}
+.rightside nav a{
+  color: #8A8FB9;
+}
+.social-span{
+  background-color: #E7E4F8;
+  padding: 17px 0;
+}
+.social{
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.social i{
+  color: #fff;
+  font-size: 12px;
+}
+.social .facebook{
+  position: absolute;
+  top: 4px;
+  left: 1.5px;
+}
+.social .insta{
+  position: absolute;
+  top: 4px;
+  left: 31.7px;
+}
+.social .twitter{
+  position: absolute;
+  top: 4px;
+  left: 62px;
+}
 @media screen and (max-width:1170px) {
   .navbar i{
     display: block;
@@ -62,3 +139,5 @@
     margin:0 auto;
   }
 }
+
+
