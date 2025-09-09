@@ -43,26 +43,54 @@
 }
 /* .navbar .colored{
   color: var(--primary);
-} */
+  } */
+  @media screen and (max-width: 1200px) {
+    .navbar i{
+      display: block;
+    }
+    .navbar ul{
+      display: none;
+    }
+    .srcbar{
+      display: none;
+    }
+  }
+  /*@media screen and (max-width: 992px){
+    .container{
+      width: calc(100% - 120px);
+      margin:0 auto;
+    }
+  }
+  @media screen and (max-width: 768px){
+    .container{
+      width: calc(100% - 70px);
+      margin:0 auto;
+    }
+  }
+  @media screen and (max-width: 600px){
+    .container{
+      width: calc(100% - 40px);
+      margin:0 auto;
+    }
+  }*/
 .burgerbar{
   color:#0D0E43
 }
 .footer{
   background-color: #EEEFFB;
-  padding: 95px 0px;
+  padding: 50px 0px;
 }
 .footer .row{
   align-items:normal;
+  gap: 30px;
 }
 .leftside{
   align-items: flex-start;
+  width: calc((100% - 30px)/2);
 }
-
-
 .mailbox{
   justify-content: center;
   align-items: center;
-
 }
 .mailbox input{
   width: 350px;
@@ -78,17 +106,20 @@
 .contact{
   color: #8A8FB9;
   font-family: var(--mainFont);
+  width: 100%;
 }
 address{
   font-style: normal;
 }
 .rightside{
   font-family: var(--mainFont);
+  width:calc((100% - 30px)/2)
 }
-.rightside{
-  gap: 114px;
+.rightside .row{
+  gap: 20px;
 }
 .footer-item{
+  width: calc((100% - 40px)/3);
   gap: 41px;
 }
 .rightside nav a{
@@ -96,7 +127,7 @@ address{
 }
 .social-span{
   background-color: #E7E4F8;
-  padding: 17px 0;
+  padding: 15px 0;
 }
 .social{
   align-items: center;
@@ -122,22 +153,94 @@ address{
   top: 4px;
   left: 62px;
 }
-@media screen and (max-width:1170px) {
-  .navbar i{
-    display: block;
-  }
-  .navbar ul{
-    display: none;
-  }
-  .srcbar{
-    display: none;
-  }
-}
-@media screen and (max-width:700px){
+@media screen and (max-width: 1552px) { 
   .container{
-    width: calc(100% - 120px);
+    width: calc(100% - 150px);
     margin:0 auto;
   }
 }
+@media screen and (max-width: 1384px) { 
+  .container{
+    width: calc(100% - 130px);
+    margin:0 auto;
+  }
+  .rightside .row{
+  gap: 10px;
+}
+  .footer-item{
+  width: calc((100% - 20px)/3);
+  }
 
+}
+@media screen and (max-width: 1250px){
+  .container{
+    width: calc(100% - 90px);
+    margin:0 auto;
+  }
+  
+}
+@media screen and (max-width: 1207px){
+  .container{
+    width: calc(100% - 80px);
+    margin:0 auto;
+  }
+
+  
+}
+@media screen and (max-width: 992px){
+  .container{
+    width: calc(100% - 70px);
+    margin:0 auto;
+  }
+  .footer .both {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
+.leftside{
+  width:100%;
+  align-items: center;
+  justify-content: center;
+}
+.rightside{
+  width:100%;
+  text-align: center;
+  }
+}
+  @media screen and (max-width: 615px){
+  .container{
+    width: calc(100% - 40px);
+    margin:0 auto;
+  }
+}
+  @media screen and (max-width: 400px){
+  .container{
+    width: calc(100% - 30px);
+    margin:0 auto;
+  }
+.rightside .row{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  }
+.footer-item{
+  width: 100%;
+  gap: 15px;
+}
+
+.leftside .mailbox{
+  width: calc(100% - 70px);
+  gap: 20px;
+}
+.leftside .mailbox .btn{
+  margin: auto;
+}
+.social-span .row{
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+}
 
