@@ -76,6 +76,40 @@
 .burgerbar{
   color:#0D0E43
 }
+.clients{
+  padding: 40px 0;
+}
+.clients .row{
+  flex-wrap:nowrap;
+  overflow-x: auto;
+  gap: 15px;
+}
+.client{
+  width:calc((100% - 120px)/9)
+}  
+.clients img{
+  width:100px;
+}
+@media screen and (max-width: 1200px){
+  .client{
+  width:calc((100% - 75px)/6);
+}
+}
+@media screen and (max-width: 804px){
+  .client{
+  width:calc((100% - 30px)/3);
+}
+}
+@media screen and (max-width: 440px){
+  .client{
+  width:calc((100% - 15px)/2);
+}
+}
+@media screen and (max-width: 270px){
+.client{
+  width:100%;
+}
+}
 .footer{
   background-color: #EEEFFB;
   padding: 50px 0px;
@@ -165,12 +199,12 @@ address{
     margin:0 auto;
   }
   .rightside .row{
-  gap: 10px;
-}
-  .footer-item{
-  width: calc((100% - 20px)/3);
+    gap: 10px;
   }
-
+  .footer-item{
+    width: calc((100% - 20px)/3);
+  }
+  
 }
 @media screen and (max-width: 1250px){
   .container{
@@ -184,7 +218,7 @@ address{
     width: calc(100% - 80px);
     margin:0 auto;
   }
-
+  
   
 }
 @media screen and (max-width: 992px){
@@ -193,54 +227,54 @@ address{
     margin:0 auto;
   }
   .footer .both {
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
-.leftside{
-  width:100%;
-  align-items: center;
-  justify-content: center;
-}
-.rightside{
-  width:100%;
-  text-align: center;
+  .leftside{
+    width:100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .rightside{
+    width:100%;
+    text-align: center;
   }
 }
-  @media screen and (max-width: 615px){
+@media screen and (max-width: 615px){
   .container{
     width: calc(100% - 40px);
     margin:0 auto;
   }
 }
-  @media screen and (max-width: 400px){
+@media screen and (max-width: 400px){
   .container{
     width: calc(100% - 30px);
     margin:0 auto;
   }
-.rightside .row{
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
+  .rightside .row{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
   }
-.footer-item{
-  width: 100%;
-  gap: 15px;
-}
-
-.leftside .mailbox{
-  width: calc(100% - 70px);
-  gap: 20px;
-}
-.leftside .mailbox .btn{
-  margin: auto;
-}
-.social-span .row{
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 5px;
-}
+  .footer-item{
+    width: 100%;
+    gap: 15px;
+  }
+  
+  .leftside .mailbox{
+    width: calc(100% - 70px);
+    gap: 20px;
+  }
+  .leftside .mailbox .btn{
+    margin: auto;
+  }
+  .social-span .row{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
 }
 
