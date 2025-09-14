@@ -76,6 +76,98 @@
 .burgerbar{
   color:#0D0E43
 }
+.featured-products{
+  padding: 128px 0px;
+}
+.featured-products .row{
+  /* justify-content: flex-start; */
+  gap: 30px;
+}
+
+.featured-product{
+  flex: 1 0 300px;
+  box-shadow: 0px 4px 4px rgba(0,0,0,25%);
+  border-radius: 4px;
+}
+.product-info{
+  padding: 17px 0;
+}
+.featured-product h3{
+  font-family: var(--mainFont);
+  color: var(--primary);
+}
+.featured-product .span-1{
+  font-family: var(--mainFont);
+  color: #151875;
+}
+.featured-product .span-2{
+  font-family: var(--secFont);
+  font-weight: 350;
+  color: #151875;
+}
+.featured-product .img{
+  background-color: #F6F7FB;
+  text-align: center;
+  border-radius: 4px 4px 0 0;
+}
+.featured-product .img img{
+    width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
+.product-info .btns .butn{
+  padding: 2px 6px;
+  border: none;
+  border-radius:10px;
+  filter: drop-shadow(0px 4px 4px rgba(0,0,0,25%));
+}
+.product-info .btns .butn:focus{
+  outline: 1px solid #000;
+}
+.product-info .btns .btn-1{
+  background-color: #05E6B7;
+}
+.product-info .btns .btn-2{
+  background-color: #F701A8;
+}
+.product-info .btns .btn-3{
+  background-color: #00009D;
+}
+.product-info{
+  align-items: center;
+  justify-content: center;
+}
+.scroll .butn{
+  padding: 2px 7px;
+  border: none;
+  border-radius:10px;
+  filter: drop-shadow(0px 4px 4px rgba(0,0,0,25%));
+  background-color: rgba(247, 1, 168, 25%);
+}
+.scroll .butn:focus{
+  padding: 2px 11px;
+  background-color: rgba(247, 1, 168, 100%);
+}
+@media screen and (max-width: 330px) {
+  .featured-product{
+  flex: 1 0 100%;
+}
+}
+.newsletter{
+  background: url(../img/Rectangle.webp);
+}
+.news{
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+  padding: 160px 0;
+  text-align: center;
+}
+.news h2{
+  color: #151875;
+  font-family:var(--secFont);
+}
+
 .clients{
   padding: 40px 0;
 }
@@ -162,6 +254,9 @@ address{
 .social-span{
   background-color: #E7E4F8;
   padding: 15px 0;
+}
+.social-span span{
+  color: #9DA0AE;
 }
 .social{
   align-items: center;

@@ -1,103 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hekto</title>
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans+Duployan:wght@400;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans+Duployan:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans+Duployan:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
   <!-- base style -->
-  <link rel="stylesheet" href="./assests/css/base.css"/>
+  <link rel="stylesheet" href="./assests/css/base.css" />
   <!-- main style -->
-  <link rel="stylesheet" href="./assests/css/main.css"/>
+  <link rel="stylesheet" href="./assests/css/main.css" />
 
 </head>
+
 <body>
   <header class="header">
     <div class="container">
-    <div class="row">
-    <div class="logo">
-      <img src="./assests/img/Hekto.svg" alt="logo"/>
-    </div>
-    <nav class="navbar">
-      <ul>
-        <li>
-          <a href="#" class="colored">Home</a>
-        </li>
-        <li>
-          <a href="#">Pages</a>
-        </li>
-        <li>
-          <a href="#">Products</a>
-        </li>
-        <li>
-          <a href="#">Blog</a>
-        </li>
-        <li>
-          <a href="#">Shop</a>
-        </li>
-        <li>
-          <a href="#">Contact</a>
-        </li>
-      </ul>
-      <i class="fa-solid fa-bars fa-xl" class="burgerbar"></i>
-    </nav>  
-    <form class="srcbar">
-      <input type="search" placeholder="search...." />
-      <button class="btn-primary"><img width="24px" height="24px" src="./assests/img/search.svg"/></button>
-    </form>
-    </div>
+      <div class="row">
+        <div class="logo">
+          <img src="./assests/img/Hekto.svg" alt="logo" />
+        </div>
+        <nav class="navbar">
+          <ul>
+            <li>
+              <a href="#" class="colored">Home</a>
+            </li>
+            <li>
+              <a href="#">Pages</a>
+            </li>
+            <li>
+              <a href="#">Products</a>
+            </li>
+            <li>
+              <a href="#">Blog</a>
+            </li>
+            <li>
+              <a href="#">Shop</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+          <i class="fa-solid fa-bars fa-xl" class="burgerbar"></i>
+        </nav>
+        <form class="srcbar">
+          <input type="search" placeholder="search...." />
+          <button class="btn-primary"><img width="24px" height="24px" src="./assests/img/search.svg" /></button>
+        </form>
+      </div>
     </div>
   </header>
   <main>
+    <section class="featured-products">
+      <h2 class="title">Featured Products</h2>
+      <div class="container">
+        <div class="row">
+          <div class="featured-product">
+            <div class="img">
+              <img src="./assests/img/featured-p/chair-1.svg" alt="Cantilever Chair" />
+            </div>
+            <div class="product-info d-flex flex-direction gap-2">
+              <h3>Cantilever chair</h3>
+              <div class="btns d-flex gap-1">
+                <button class="butn btn-1"></button>
+                <button class="butn btn-2"></button>
+                <button class="butn btn-3"></button>
+              </div>
+              <span class="span-1">Code - Y523201</span>
+              <span class="span-2">$42.00</span>
+            </div>
+          </div>
+          <div class="featured-product">
+            <div class="img">
+              <img src="./assests/img/featured-p/chair-2.svg" alt="Cantilever Chair" />
+            </div>
+            <div class="product-info d-flex flex-direction gap-2">
+              <h3>Cantilever chair</h3>
+              <div class="btns d-flex gap-1">
+                <button class="butn btn-1"></button>
+                <button class="butn btn-2"></button>
+                <button class="butn btn-3"></button>
+              </div>
+              <span class="span-1">Code - Y523201</span>
+              <span class="span-2">$42.00</span>
+            </div>
+          </div>
+          <div class="featured-product ">
+            <div class="img">
+              <img src="./assests/img/featured-p/chair-3.svg" alt="Cantilever Chair" />
+            </div>
+            <div class="product-info d-flex flex-direction gap-2">
+              <h3>Cantilever chair</h3>
+              <div class="btns d-flex gap-1">
+                <button class="butn btn-1"></button>
+                <button class="butn btn-2"></button>
+                <button class="butn btn-3"></button>
+              </div>
+              <span class="span-1">Code - Y523201</span>
+              <span class="span-2">$42.00</span>
+            </div>
+          </div>
+          <div class="featured-product">
+            <div class="img">
+              <img src="./assests/img/featured-p/chair-4.svg" alt="Cantilever Chair" />
+            </div>
+            <div class="product-info d-flex flex-direction gap-2">
+              <h3>Cantilever chair</h3>
+              <div class="btns d-flex gap-1">
+                <button class="butn btn-1"></button>
+                <button class="butn btn-2"></button>
+                <button class="butn btn-3"></button>
+              </div>
+              <span class="span-1">Code - Y523201</span>
+              <span class="span-2">$42.00</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scroll">
+            <div class="btns d-flex gap-1">
+              <button class="butn btn-2"></button>
+              <button class="butn btn-2"></button>
+              <button class="butn btn-2"></button>
+              <button class="butn btn-2"></button>
+            </div>
+      </div>
+
+    </section>
+    <section class="newsletter">
+      <div class="news d-flex flex-direction">
+        <h2>Get Leatest Update By Subscribe Our Newslater</h2>
+        <button class="btn btn-primary">Shop Now</button>
+      </div>
+    </section>
     <section class="clients">
       <div class="container">
         <div class="row">
           <div class="client">
-            <img src="./assests/img/clients/bmw-logo.webp" alt="Bmw-logo"/>
+            <img src="./assests/img/clients/bmw-logo.webp" alt="Bmw-logo" />
           </div>
           <div class="client">
-            <img src="./assests/img/clients/bmw-logo.webp" alt="Bmw-logo"/>
+            <img src="./assests/img/clients/bmw-logo.webp" alt="Bmw-logo" />
           </div>
           <div class="client">
-            <img src="./assests/img/clients/bmw-logo.webp" alt="Bmw-logo"/>
+            <img src="./assests/img/clients/bmw-logo.webp" alt="Bmw-logo" />
           </div>
           <div class="client">
-            <img src="./assests/img/clients/bmw-logo.webp" alt="Bmw-logo"/>
+            <img src="./assests/img/clients/bmw-logo.webp" alt="Bmw-logo" />
           </div>
           <div class="client">
-            <img src="./assests/img/clients/bmw-logo.webp" alt="Bmw-logo"/>
+            <img src="./assests/img/clients/bmw-logo.webp" alt="Bmw-logo" />
           </div>
           <div class="client">
-            <img src="./assests/img/clients/bmw-logo.webp" alt="Bmw-logo"/>
+            <img src="./assests/img/clients/bmw-logo.webp" alt="Bmw-logo" />
           </div>
           <div class="client">
-            <img src="./assests/img/clients/bmw-logo.webp" alt="Bmw-logo"/>
+            <img src="./assests/img/clients/bmw-logo.webp" alt="Bmw-logo" />
           </div>
           <div class="client">
-            <img src="./assests/img/clients/bmw-logo.webp" alt="Bmw-logo"/>
+            <img src="./assests/img/clients/bmw-logo.webp" alt="Bmw-logo" />
           </div>
           <div class="client">
-            <img src="./assests/img/clients/bmw-logo.webp" alt="Bmw-logo"/>
+            <img src="./assests/img/clients/bmw-logo.webp" alt="Bmw-logo" />
           </div>
           <div class="client">
-            <img src="./assests/img/clients/bmw-logo.webp" alt="Bmw-logo"/>
+            <img src="./assests/img/clients/bmw-logo.webp" alt="Bmw-logo" />
           </div>
           <div class="client">
-            <img src="./assests/img/clients/bmw-logo.webp" alt="Bmw-logo"/>
+            <img src="./assests/img/clients/bmw-logo.webp" alt="Bmw-logo" />
           </div>
           <div class="client">
-            <img src="./assests/img/clients/bmw-logo.webp" alt="Bmw-logo"/>
+            <img src="./assests/img/clients/bmw-logo.webp" alt="Bmw-logo" />
           </div>
           <div class="client">
-            <img src="./assests/img/clients/bmw-logo.webp" alt="Bmw-logo"/>
+            <img src="./assests/img/clients/bmw-logo.webp" alt="Bmw-logo" />
           </div>
           <div class="client">
-            <img src="./assests/img/clients/bmw-logo.webp" alt="Bmw-logo"/>
+            <img src="./assests/img/clients/bmw-logo.webp" alt="Bmw-logo" />
           </div>
         </div>
       </div>
@@ -107,14 +200,14 @@
     <div class="container">
       <div class="row both">
         <div class="leftside d-flex flex-direction gap-5">
-          <img src="./assests/img/Hekto.svg"  alt="logo"/>
-          <form class="mailbox d-flex"> 
+          <img src="./assests/img/Hekto.svg" alt="logo" />
+          <form class="mailbox d-flex">
             <input type="email" placeholder="Enter Email Address" />
             <button class="btn btn-primary ">Sign Up</button>
           </form>
           <div class="contact d-flex flex-direction gap-2">
             <p>Contact Info</p>
-            <address>17 Princess Road, London, Greater London NW1 8JR, UK</address> 
+            <address>17 Princess Road, London, Greater London NW1 8JR, UK</address>
           </div>
         </div>
         <div class="rightside">
@@ -151,35 +244,36 @@
               </nav>
             </div>
           </div>
-          </div>
+        </div>
       </div>
-      
-    </footer>
-    <div class="social-span">
-      <!-- i added two containers to make the space more narrow(to add more margin to it) -->
+
+  </footer>
+  <div class="social-span">
+    <!-- i added two containers to make the space more narrow(to add more margin to it) -->
+    <div class="container">
       <div class="container">
-        <div class="container">
-          <div class="row">
-            <span>©Webecy - All Rights Reserved</span>
-            <div class="social d-flex gap-2">
-              <a href="#" target="_blank">
-                <img src="./assests/img/Ellipse.svg" />
-                <i class="fa-brands fa-facebook-f facebook"></i>
-              </a>
-              <a href="#" target="_blank">
-                <img src="./assests/img/Ellipse.svg" />
-                <i class="fa-brands fa-instagram insta"></i>
-              </a>
-              <a href="#" target="_blank">
-                <img src="./assests/img/Ellipse.svg" />
-                <i class="fa-brands fa-twitter twitter"></i>
-              </a>
-            </div>
+        <div class="row">
+          <span>©Webecy - All Rights Reserved</span>
+          <div class="social d-flex gap-2">
+            <a href="#" target="_blank">
+              <img src="./assests/img/Ellipse.svg" />
+              <i class="fa-brands fa-facebook-f facebook"></i>
+            </a>
+            <a href="#" target="_blank">
+              <img src="./assests/img/Ellipse.svg" />
+              <i class="fa-brands fa-instagram insta"></i>
+            </a>
+            <a href="#" target="_blank">
+              <img src="./assests/img/Ellipse.svg" />
+              <i class="fa-brands fa-twitter twitter"></i>
+            </a>
           </div>
         </div>
       </div>
-      </div>
     </div>
-  </div> 
+  </div>
+  </div>
+  </div>
 </body>
+
 </html>
