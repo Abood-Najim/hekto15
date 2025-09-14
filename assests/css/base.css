@@ -33,6 +33,15 @@ a{
 .btn-primary{
   background-color: var(--primary);
 }
+.btn-sec{
+  background-color: #08D15F;
+  padding: 9px 13px;
+  color: #fff;
+  border: none;
+  font-family: var(--secFont);
+  margin-bottom: 9px;
+  border-radius: 2px;
+}
 .d-flex{
   display: flex;
   flex-wrap: wrap;
@@ -53,6 +62,9 @@ a{
   justify-content: center;
   align-items: center;
   margin-top: 48px;
+}
+.gap-0{
+  gap: 0;
 }
 .gap-1{
   gap: 5px;
