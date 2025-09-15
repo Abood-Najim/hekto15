@@ -114,21 +114,19 @@
 .featured-product .img .shop-icons i{ 
   padding: 8px;
 }
-.featured-product .img .shop-icons .botn-1 i{ 
+.featured-product .img .shop-icons .shop-btn-1 i{ 
   position: absolute;
   left: 5px;
+  color: transparent;
+  -webkit-text-stroke: #2F1AC4 1px; 
 }
-.featured-product .img .shop-icons .botn-2 i{ 
+.featured-product .img .shop-icons .shop-btn-2 i{ 
   position: absolute;
   left: 25px;
 }
-.featured-product .img .shop-icons .botn-3 i{ 
+.featured-product .img .shop-icons .shop-btn-3 i{ 
   position: absolute;
   left:40px;
-}
-.featured-product .img .shop-icons .botn-1 i{ 
-  color: transparent;
-  -webkit-text-stroke: #2F1AC4 1px; 
 }
 .featured-product .img button{ 
   display: none;
@@ -155,13 +153,13 @@
   font-family: var(--mainFont);
   color: var(--primary);
 }
-.product-info .btns .butn{
+.product-info .btns .c-butn{
   padding: 2px 6px;
   border: none;
   border-radius:10px;
   filter: drop-shadow(0px 4px 4px rgba(0,0,0,25%));
 }
-.product-info .btns .butn:focus{
+.product-info .btns .c-butn:focus{
   outline: 1px solid #000;
 }
 .product-info .btns .btn-1{
@@ -183,14 +181,14 @@
   font-weight: 350;
   color: #151875;
 }
-.scroll .butn{
+.scroll .c-butn{
   padding: 2px 7px;
   border: none;
   border-radius:10px;
   filter: drop-shadow(0px 4px 4px rgba(0,0,0,25%));
   background-color: rgba(247, 1, 168, 25%);
 }
-.scroll .butn:focus{
+.scroll .c-butn:focus{
   padding: 2px 11px;
   background-color: rgba(247, 1, 168, 100%);
 }
