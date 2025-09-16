@@ -249,6 +249,10 @@
   .featured-product{
   flex: 1 0 100%;
 }
+.featured-product .img img{
+  width: 100%;
+  height: auto;
+}
 }
 .latest-products{
   padding: 0px 0px 55px;
@@ -384,6 +388,10 @@
   align-items: center;
   flex-direction: column;
 }
+.latest-product .img img{
+  width: 100%;
+  height: auto;
+}
 }
 .services{
   padding-bottom: 135px;
@@ -467,6 +475,10 @@
   .trending-products .trending-product{
   flex: 1 0 100%;
 }
+.trending-product .img img{
+  width: 100%;
+  height: auto;
+}
 }
 .top-categories{
   padding-bottom: 135px;
@@ -517,6 +529,11 @@
   .top-categories .top-category{
   flex: 1 0 100%;
   }
+.top-category .img img{
+  width: 100%;
+  height: auto;
+}
+
 }
 .newsletter{
   background: url(../img/Rectangle.webp);
@@ -565,6 +582,80 @@
 @media screen and (max-width: 270px){
 .client{
   width:100%;
+}
+}
+.latest-blogs{
+  padding-bottom: 135px;
+}
+.latest-blogs .row{
+  gap: 28px;
+}
+.latest-blogs .latest-blog{
+  justify-content: center;
+  align-items: flex-start;
+  flex: 1 0 calc((100% - 56px)/3);
+  font-family: var(--mainFont);
+  box-shadow:0 4px 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  padding-bottom: 20px;
+} 
+.latest-blog .img img{
+  border-radius: 8px;
+  flex: 1 0 100%;
+}
+/* .latest-blogs .latest-blog h3{
+  color: var(--Font-color);
+}
+.latest-blogs .latest-blog h3:hover{
+  color: var(--primary);
+} */
+.latest-blogs .latest-blog span{
+  color: rgba(26, 11, 91, 30%);
+}
+.latest-blogs .latest-blog .blog-info{
+  padding-left: 15px;
+  padding-top: 10px;
+}
+.latest-blogs .latest-blog .writer-date .pen{
+  color: var(--primary);
+}
+.latest-blogs .latest-blog .writer-date .calender{
+  color: #FFA454;
+}
+.latest-blogs .latest-blog .writer-date span{
+  color: var(--Font-color);
+}
+.latest-blogs .latest-blog .read {
+  color: var(--Font-color);
+  text-decoration: underline;
+}
+.latest-blogs .latest-blog .h3 {
+  color: var(--Font-color);
+}
+.latest-blogs .latest-blog a {
+  transition: color 0.5s;
+}
+.latest-blogs .latest-blog a:hover {
+  color: var(--primary);
+}
+@media screen and (max-width: 1300px){
+  .latest-blogs .row{
+    justify-content: center;
+  }
+  .latest-blogs .latest-blog{
+    flex: 0 0 calc((100% - 56px)/2);
+  }
+}
+@media screen and (max-width: 840px){
+  .latest-blogs .row{
+    justify-content: center;
+  }
+  .latest-blogs .latest-blog{
+    flex: 1 0 100%;
+  }
+  .latest-blog .img img{
+  width: 100%;
+  height: auto;
 }
 }
 .footer{
@@ -726,6 +817,10 @@ address{
   .leftside .mailbox{
     width: calc(100% - 70px); 
     gap: 20px;
+  }
+  .leftside .mailbox input{
+    width: 100%; 
+    height: auto;
   }
   .leftside .mailbox .btn{
     margin: auto;
