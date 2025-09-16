@@ -242,10 +242,10 @@
 }
 }
 .latest-products{
-  padding: 128px 0px;
+  padding: 0px 0px 55px;
 }
 .latest-products .head{
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 .title a{
   color: var(--Font-color);
