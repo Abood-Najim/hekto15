@@ -161,18 +161,29 @@
   text-align: center;
   border-radius: 4px 4px 0 0;
   gap: 0;
+  /* padding-top:30px; */
 }
+
+
 .featured-product .img img{
   width: 200px;
   height: 200px;
   object-fit: contain;
+  transition: width 0.2s;
+  transition: padding 0.2s;
 }
-
-.featured-product .img .shop-icons{ 
+.featured-product:hover img{
+  width: 124px;
+  height: 124px;
+  padding-bottom: 5px;
+}
+.featured-product .shop-icons{ 
   gap: 7px;
   width: 100%;
+  background-color:#F6F7FB;
+  border-radius: 2px;
 } 
-.featured-product .img .shop-icons button{ 
+.featured-product .shop-icons button{ 
   border-radius: 50px;
   border: none;
   background-color: transparent;
@@ -180,39 +191,49 @@
   position: relative; 
   padding: 18px;
 }
-.featured-product .img .shop-icons i{ 
+.featured-product .shop-icons i{ 
   padding: 8px;
 }
-.featured-product .img .shop-icons button:hover{
+.featured-product .shop-icons button:hover{
   background-color: #EEEFFB;
 }
-.featured-product .img .shop-icons .shop-btn-1 i{ 
+.featured-product .shop-icons .shop-btn-1 i{ 
   position: absolute;
   left: 2px;
   top: 5px;
   color: transparent;
   -webkit-text-stroke: #2F1AC4 1px; 
 }
-.featured-product .img .shop-icons .shop-btn-2 i{ 
+.featured-product .shop-icons .shop-btn-2 i{ 
   position: absolute;
   top: 5px;
   left: 3.2px;
 }
-.featured-product .img .shop-icons .shop-btn-3 i{ 
+.featured-product .shop-icons .shop-btn-3 i{ 
   position: absolute;
   top: 4px;
-  left: 4px;
+  left: 3.5px;
 }
 .featured-product .img button{ 
   display: none;
 }
-.featured-product:hover .img button{
+.featured-product .shop-icons button{ 
+  display: none;
+}
+.featured-product:hover .shop-icons button
+,.featured-product:hover .img button{ 
   display: block;
 }
 .product-info{
   align-items: center;
   justify-content: center;
   padding: 17px 0;
+}
+.featured-product span,h3{
+  transition: color 0.5s;
+}
+.featured-product .product-info,.btn .btn-3{
+  transition: background-color 0.5s;
 }
 .featured-product:hover .product-info{
   background-color:#2F1AC4;
@@ -536,6 +557,7 @@
   justify-content: center;
   align-items: center;
   border-radius: 50%;
+  transition: box-shadow 0.2s;
 }
 .top-category .img button{
   display: none;
@@ -550,6 +572,14 @@
   width: 200px;
   height: 200px;
   object-fit: contain;
+  padding-bottom: 0px;
+  transition: width 0.2s;
+  transition: padding 0.2s;
+}
+.top-category:hover .img img{
+  width: 160px;
+  height: 160px;
+  padding-bottom: 5px;
 }
 .top-category .product-info a{
   justify-content: space-between;
