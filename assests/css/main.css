@@ -693,6 +693,9 @@
 .latest-blogs .latest-blog .h3 {
   color: var(--Font-color);
 }
+.latest-blog .blog-info .span{
+  padding-right: 5px;
+}
 .latest-blogs .latest-blog a {
   transition: color 0.5s;
 }
